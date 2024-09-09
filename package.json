@@ -1,0 +1,19 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "function-start": "functions-framework --target=playground --port 3001"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google-cloud/functions-framework": "3.4.2",
+    "multer": "1.4.4",
+    "busboy": "1.6.0",
+    "formidable": "3.5.1",
+    "express": "4.19.2"
+  }
+}
